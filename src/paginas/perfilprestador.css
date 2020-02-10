@@ -1,0 +1,24 @@
+.btnSolicitar{
+    background-color: #160C71;
+    border-radius: 15px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.btnSolicitar:hover{
+    color: azure;
+}
+.crd{
+    max-block-size: 400px;
+}
+.presth1{
+    font-size: 30px;
+    text-align: left;
+    color: #160C71;
+
+}
+.presth4{
+    font-size: 25px;
+    text-align: left;
+    color: #160C71;
+}

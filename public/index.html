@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> 
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!--Linkando os componentes bootstrap 4 com a aplicalçao-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--Fim dos links bootstrap 4-->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /><!-- Link para o favIcon na aba do chrome -->
+    <title>Faz um bico</title>
+  </head>
+
+  <body>
+    <!--Linkando o plugin de acessibilidade de libras com o site-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+    <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!--Fim de libras-->
+
+  <!--Linkando o plugin de audição para o site-->
+    <script type="text/javascript">
+    var _userway_config = {
+      account: 'cddHPEQJQN'
+    };
+  </script>
+
+    <script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
+    <!--Fim-->
+
+
+
+    <div id="root"></div><!--Div que recebe todos os componentes de react-->
+
+  </body>
+
+</html>

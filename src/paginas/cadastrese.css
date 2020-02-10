@@ -1,0 +1,37 @@
+.tudo{ /*background completo*/
+    background-color: #160C71;
+    
+}
+.h1cad{/* cabeçalho estilizado 1*/
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+.h3cad{ /*cabeçalho estilizado 2*/
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+.formulario{ /*cor do formulário*/
+    background-color: white;
+    max-width: 600px;
+}
+.texto{/*texto dentro do formulário*/
+    text-align: left;
+    font-size: 28px;
+    font: bolder;
+    
+}
+.botaocad{ /*botão de cadastro
+    Se for mudar a aparencia do botão tem que ser aqui*/
+    border-radius: 15px;
+    height: 60px;
+    position: relative;
+    background-color: #32329C;
+    color: white;
+    font-size: 30px;
+}
+.cadinput{
+    text-align: center;
+    
+}

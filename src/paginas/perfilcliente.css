@@ -1,0 +1,30 @@
+.clienteh4{
+    font-size: 19px;
+    text-align: left;
+    color: #160C71;
+}
+.clienteh3{
+    font-size: 23px;
+    text-align: left;
+    color: #160C71;
+}
+.btnCancelar{
+    background-color: grey;
+    border-radius: 15px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.btnCancelar:hover{
+    color: azure;
+}
+.btnSalvar{
+    background-color: #160C71;
+    border-radius: 15px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.btnSalvar:hover{
+    color: azure;
+}

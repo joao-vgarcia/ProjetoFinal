@@ -1,0 +1,29 @@
+.logincont {
+    background-color: #160C71;
+}
+.loginTitulo{
+    color: white;
+    font-size: 32px;
+
+}
+.envbtn{
+    border-radius: 15px;
+    height: 60px;
+    position: relative;
+    background-color: #32329C;
+    color: white;
+    font-size: 24px;
+}
+.envbtn:hover{
+    color: rgb(137, 245, 185);
+}
+.esqueci:hover{
+    color: black;
+    font-size: 14px;
+}
+.contt{
+    max-width: 600px;
+    max-height: 900px;
+}
+
+

@@ -1,0 +1,28 @@
+.conter{/* Classe do background azul */
+    background-color: #160C71;
+    color:white
+    
+}
+
+
+
+.formPesq{/* Classe do formulário*/
+
+background: #FDFDFF;
+border-radius: 5px;
+color: black;
+}
+.h1titulo{ /*Classe para titulos*/
+    text-align: left;
+}
+
+.botaobusca{/*Classe do botão de busca  
+    Se precisar de alteração de cor e tamanho no botão deve ser feitas aqui*/
+    
+    border-radius: 15px;
+    height: 60px;
+    position: relative;
+    background-color: #32329C;
+    color: white;
+    font-size: 30px;
+}

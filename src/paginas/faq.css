@@ -1,0 +1,10 @@
+p{/*muda a forma do paragrafo*/
+    text-align: left;
+}
+hr{/*tamanho máximo da linha colocada*/
+    max-width: 1020px;
+    position: relative;
+}
+.h1faq{/*cor do cabeçalho*/
+    color: #32329C;
+}

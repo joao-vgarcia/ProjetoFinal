@@ -1,0 +1,53 @@
+#navbar{
+    background-color: #32329C;
+}
+
+nav ul li, .navbar-brand {
+	color: #FDFDFF;
+	font-size: 0.950em;
+}
+nav .navbar-brand {
+	font-size: 1em;
+	color: #FDFDFF;
+	
+}
+nav ul li a:hover {
+	border: 1.5px solid white;
+	border-radius: 20px;
+	color: #FDFDFF;
+}
+
+#botao{
+    border: 1.5px solid #67EBA2;
+	border-radius: 20px;
+	color: white;
+}
+#cta{
+    background-color: #67EBA2;
+	color: #160C71;
+	font-size: 0.950em;
+	border-radius: 5px;
+    padding: 20px 20px;
+    
+}
+#cta a:hover{
+    background-color: rgb(137, 245, 185);
+	border-radius: 20px;
+    color: #160C71;
+    border-color: white;
+}
+#loginbot{
+    background-color: #160C71;
+	color: #FDFDFF;
+	font-size: 0.950em;
+	border-radius: 5px;
+    padding: 20px 20px;
+    
+}
+#loginbot a:hover{
+    
+	border-radius: 0;	
+    color: #FDFDFF;
+    border: 1px, solid, white;
+    border-color: white;
+}
