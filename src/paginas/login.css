@@ -2,28 +2,57 @@
     background-color: #160C71;
 }
 .loginTitulo{
+    color: black;
+    font-size: 32px;
+}
+.loginTit{
     color: white;
     font-size: 32px;
-
 }
+
 .envbtn{
+    border-radius: 15px;
+    background-color: #32329C;
+    color: white;
+    font-size: 24px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.envbtn:hover{
+    color: rgb(188, 252, 246);
+}
+.esqueci:hover{
+    color: black;
+    font-size: 16.5px;
+}
+.texto{/*texto dentro do formulário*/
+    text-align: left;
+    font-size: 28px;
+    font: bolder;
+    
+}
+.textoo{/*texto dentro do formulário*/
+    text-align: left;
+    font-size: 20px;
+    font: bolder;
+    
+}
+.texxto{/*texto dentro do formulário*/
+    text-align: left;
+    font-size: 18px;
+    font: bolder;
+    
+}
+.botaocad{ /*botão de cadastro
+    Se for mudar a aparencia do botão tem que ser aqui*/
     border-radius: 15px;
     height: 60px;
     position: relative;
     background-color: #32329C;
     color: white;
-    font-size: 24px;
+    font-size: 30px;
 }
-.envbtn:hover{
-    color: rgb(137, 245, 185);
+.botaocad:hover{
+    color: rgb(188, 252, 246);
 }
-.esqueci:hover{
-    color: black;
-    font-size: 14px;
-}
-.contt{
-    max-width: 600px;
-    max-height: 900px;
-}
-
 
