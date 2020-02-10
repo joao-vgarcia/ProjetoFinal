@@ -26,24 +26,7 @@ class Navbar extends Component {
         this.setState({ cor6: "#67EBA2" })
         this.setState({ cor7: "#160C71" })
     }
-    mudacor1() {
-        this.setState({ cor: "#160C71" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
-    }
-    mudacor2() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#160C71" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
-    }
+
     mudacor3() {
         this.setState({ cor: "#32329C" })
         this.setState({ cor2: "#32329C" })
@@ -53,15 +36,7 @@ class Navbar extends Component {
         this.setState({ cor6: "#67EBA2" })
         this.setState({ cor7: "#160C71" })
     }
-    mudacor4() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#160C71" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
-    }
+
     mudacor5() {
         this.setState({ cor: "#32329C" })
         this.setState({ cor2: "#32329C" })
@@ -72,15 +47,7 @@ class Navbar extends Component {
         this.setState({ cor7: "#160C71" })
 
     }
-    mudacor6() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#24D372" })
-        this.setState({ cor7: "#160C71" })
-    }
+
     mudacor7() {
         this.setState({ cor: "#32329C" })
         this.setState({ cor2: "#32329C" })
@@ -88,7 +55,7 @@ class Navbar extends Component {
         this.setState({ cor4: "#32329C" })
         this.setState({ cor5: "#32329C" })
         this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#1A09BC" })
+        this.setState({ cor7: "#3CB371" })
     }
 
     
@@ -101,28 +68,21 @@ class Navbar extends Component {
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span className="navbar-toggler-icon"></span></button>
                         <div className="collapse navbar-collapse" id="collapsibleNavbar">
                                 <ul className="navbar-nav mx-auto">
-                                    <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/busca" onClick={this.mudacor1.bind(this)} style={{ backgroundColor: this.state.cor, borderRadius: this.state.borda }}>Contrate um serviço</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/home"  onClick={this.mudacor2.bind(this)} style={{ backgroundColor: this.state.cor2, borderRadius: this.state.borda }}>Como funciona</Link>
-                                    </li>
+                                    
                                     <li className="nav-item">
                                         <Link className="nav-link active mr-lg-4" to="/home"  onClick={this.mudacor3.bind(this)} style={{ backgroundColor: this.state.cor3, borderRadius: this.state.borda }}>Home</Link>
                                     </li>
+                                   
                                     <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/categorias" onClick={this.mudacor4.bind(this)} style={{ backgroundColor: this.state.cor4, borderRadius: this.state.borda }}>Categorias</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/faq" onClick={this.mudacor5.bind(this)} style={{ backgroundColor: this.state.cor5, borderRadius: this.state.borda }}>Perguntas frequentes</Link>
+                                        <Link className="nav-link active mr-lg-4" to="/faq" onClick={this.mudacor5.bind(this)} style={{ backgroundColor: this.state.cor5, borderRadius: this.state.borda }}>Quem somos</Link>
                                     </li>
                                 </ul>
-                            <ul className="navbar-nav">
-                                <li className="nav-item" >
-                                    <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7 }} onClick={this.mudacor7.bind(this)}>Login</Link>
-                                    <Link to="/cadastrese" className="btn" id="cta" style={{ backgroundColor: this.state.cor6 }} onClick={this.mudacor6.bind(this)}>Cadastre-se</Link>
-                                </li>
-                            </ul>
+                                <ul className="navbar-nav">
+                                    <li className="nav-item" >
+                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7 }} onClick={this.mudacor7.bind(this)}>Entrar</Link>
+                                        
+                                    </li>
+                                </ul>
                         </div>
                     </nav>
                 </div>

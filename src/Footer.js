@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import logo from '../src/imagens/logo1.svg';
 import './Footer.css';
 
+
+import facebook from '../src/imagens/facebook.svg';
 import instagram from '../src/imagens/instagram.PNG';
 import youtube from '../src/imagens/youtube.PNG';
 import twitter from '../src/imagens/twitter.PNG';
@@ -42,7 +44,7 @@ class Footer extends Component {
                         </div>
                         <div className="row d-block d-sm-block d-md-none d-lg-none">
                         <div className="d-block d-sm-block d-md-none col-12">
-                           <p className='fote'> <img src={instagram} className=' social' /><img src={twitter} className=' social' /><img src={linkedin} className=' social' /><img src={youtube} className=' social' /></p>
+                           <p className='fote'> <img src={facebook} className=' social'/> <img src={instagram} className=' social' /><img src={twitter} className=' social' /><img src={linkedin} className=' social' /><img src={youtube} className=' social' /></p>
                         </div>
                     </div>
 
