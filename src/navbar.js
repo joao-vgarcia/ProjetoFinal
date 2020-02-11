@@ -7,56 +7,43 @@ class Navbar extends Component {
     constructor() {
         super()
         this.state = {
-            cor: " ",
-            cor2: "",
-            cor3: "",
-            cor4: "",
-            cor5: "#32329C",
-            cor6: "#67EBA2",
-            cor7: "#67EBA2",
-            borda: "30px "
+            cor5: "white",
+            cor6: "white",
+            cor7: "#160C71",
+            borda: "30px ",
+            fonte5 : "#32329C",
+            fonte6 : "#32329C",
+            fonte7:"white"
         }
     }
 
     mudacor0(){
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
+      
+        this.setState({ cor5: "white", fonte5 : "#32329C" })
+        this.setState({ cor6: "white", fonte6: "#32329C" })
+        this.setState({ cor7: "#160C71", fonte7: "white" })
     }
 
     mudacor3() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#160C71" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
+        
+        this.setState({ cor5: "#67EBA2", fonte5:"#32329C" })
+        this.setState({ cor6: "white", fonte6: "#32329C" })
+        this.setState({ cor7: "#160C71", fonte7: "white" })
     }
 
     mudacor5() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#160C71" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#160C71" })
+     
+        this.setState({ cor5: "white" })
+        this.setState({ cor6: "#67EBA2", fonte6: "#32329C" })
+        this.setState({ cor7: "#160C71", fonte7: "white" })
 
     }
 
     mudacor7() {
-        this.setState({ cor: "#32329C" })
-        this.setState({ cor2: "#32329C" })
-        this.setState({ cor3: "#32329C" })
-        this.setState({ cor4: "#32329C" })
-        this.setState({ cor5: "#32329C" })
-        this.setState({ cor6: "#67EBA2" })
-        this.setState({ cor7: "#3CB371" })
+       
+        this.setState({ cor5: "white" })
+        this.setState({ cor6: "white" })
+        this.setState({ cor7: "#67EBA2", fonte7 : "black" })
     }
 
 
@@ -73,16 +60,16 @@ class Navbar extends Component {
                                 <ul className="navbar-nav mx-auto">
 
                                     <li className="nav-item" >
-                                        <Link className="nav-link" to="/home"  onClick={this.mudacor3.bind(this)}  >Home</Link>
+                                        <Link className="nav-link" to="/home" style={{backgroundColor:this.state.cor5, borderRadius: this.state.borda, color: this.state.fonte5}}  onClick={this.mudacor3.bind(this)}  >Home</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/faq" onClick={this.mudacor5.bind(this)} >Quem somos</Link>
+                                        <Link className="nav-link" to="/faq" style={{backgroundColor:this.state.cor6, borderRadius: this.state.borda, color: this.state.fonte6}} onClick={this.mudacor5.bind(this)} >Quem somos</Link>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav">
                                     <li className="nav-item" >
-                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor2 }} onClick={this.mudacor7.bind(this)}>Entrar</Link>
+                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entrar</Link>
 
                                     </li>
                                 </ul>
