@@ -9,11 +9,11 @@ class Navbar extends Component {
         this.state = {
             cor5: "white",
             cor6: "white",
-            cor7: "#160C71",
+            cor7: "white",
             borda: "30px ",
             fonte5 : "#32329C",
             fonte6 : "#32329C",
-            fonte7:"white"
+            fonte7:"#32329C"
         }
     }
 
@@ -21,29 +21,29 @@ class Navbar extends Component {
       
         this.setState({ cor5: "white", fonte5 : "#32329C" })
         this.setState({ cor6: "white", fonte6: "#32329C" })
-        this.setState({ cor7: "#160C71", fonte7: "white" })
+        this.setState({ cor7: "white", fonte7: "#32329C" })
     }
 
     mudacor3() {
         
         this.setState({ cor5: "#67EBA2", fonte5:"#32329C" })
         this.setState({ cor6: "white", fonte6: "#32329C" })
-        this.setState({ cor7: "#160C71", fonte7: "white" })
+        this.setState({ cor7: "white", fonte7: "#32329C" })
     }
 
     mudacor5() {
      
-        this.setState({ cor5: "white" })
+        this.setState({ cor5: "white" , fonte5:"#32329C"})
         this.setState({ cor6: "#67EBA2", fonte6: "#32329C" })
-        this.setState({ cor7: "#160C71", fonte7: "white" })
+        this.setState({ cor7: "white", fonte7: "#32329C" })
 
     }
 
     mudacor7() {
        
-        this.setState({ cor5: "white" })
-        this.setState({ cor6: "white" })
-        this.setState({ cor7: "#67EBA2", fonte7 : "black" })
+        this.setState({ cor5: "white" , fonte5: "#32329C"})
+        this.setState({ cor6: "white" , fonte6: "#32329C"})
+        this.setState({ cor7: "#67EBA2", fonte7 : "#32329C" })
     }
 
 
@@ -52,11 +52,11 @@ class Navbar extends Component {
             return (
                 <div>
 
-                    <nav className="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-white text-dark" id="branco">
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-white text-dark" id="branco">
                         <p className='logomenu'><img src={logo} className=' logo' /></p>
                         <Link className="logoescrito" to="/home" onClick={this.mudacor0.bind(this)} >Faz um bico</Link>
-                        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span className="navbar-toggler-icon"></span></button>
-                        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                        <button className="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span className="navbar-toggler-icon"></span></button>
+                        <div className="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
                                 <ul className="navbar-nav mx-auto">
 
                                     <li className="nav-item" >
@@ -66,10 +66,8 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/faq" style={{backgroundColor:this.state.cor6, borderRadius: this.state.borda, color: this.state.fonte6}} onClick={this.mudacor5.bind(this)} >Quem somos</Link>
                                     </li>
-                                </ul>
-                                <ul className="navbar-nav">
                                     <li className="nav-item" >
-                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entre ou cadastre-se</Link>
+                                        <Link to="/login" className="nav-link" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entre ou cadastre-se</Link>
 
                                     </li>
                                 </ul>
