@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../src/imagens/logo1.svg';
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -10,10 +11,10 @@ class Navbar extends Component {
             cor2: "",
             cor3: "",
             cor4: "",
-            cor5: "",
-            cor6: "",
-            cor7: "",
-            borda: "45px "
+            cor5: "#32329C",
+            cor6: "#67EBA2",
+            cor7: "#67EBA2",
+            borda: "30px "
         }
     }
 
@@ -58,29 +59,31 @@ class Navbar extends Component {
         this.setState({ cor7: "#3CB371" })
     }
 
-    
+
     render() {
-     
+
             return (
                 <div>
-                    <nav className="navbar navbar-expand-lg navbar-dark" id="navbar">
-                        <Link className="navbar-brand py-2" to="/home" onClick={this.mudacor0.bind(this)} >Faz um<br /> bico</Link>
+
+                    <nav className="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-white text-dark" id="branco">
+                        <p className='logomenu'><img src={logo} className=' logo' /></p>
+                        <Link className="logoescrito" to="/home" onClick={this.mudacor0.bind(this)} >Faz um bico</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span className="navbar-toggler-icon"></span></button>
                         <div className="collapse navbar-collapse" id="collapsibleNavbar">
                                 <ul className="navbar-nav mx-auto">
-                                    
-                                    <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/home"  onClick={this.mudacor3.bind(this)} style={{ backgroundColor: this.state.cor3, borderRadius: this.state.borda }}>Home</Link>
+
+                                    <li className="nav-item" >
+                                        <Link className="nav-link" to="/home"  onClick={this.mudacor3.bind(this)}  >Home</Link>
                                     </li>
-                                   
+
                                     <li className="nav-item">
-                                        <Link className="nav-link active mr-lg-4" to="/faq" onClick={this.mudacor5.bind(this)} style={{ backgroundColor: this.state.cor5, borderRadius: this.state.borda }}>Quem somos</Link>
+                                        <Link className="nav-link" to="/faq" onClick={this.mudacor5.bind(this)} >Quem somos</Link>
                                     </li>
                                 </ul>
                                 <ul className="navbar-nav">
                                     <li className="nav-item" >
-                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7 }} onClick={this.mudacor7.bind(this)}>Entrar</Link>
-                                        
+                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor2 }} onClick={this.mudacor7.bind(this)}>Entrar</Link>
+
                                     </li>
                                 </ul>
                         </div>
@@ -89,7 +92,7 @@ class Navbar extends Component {
             )
         }
         }
-        
+
 
 
 

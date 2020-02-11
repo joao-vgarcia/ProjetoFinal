@@ -24,10 +24,10 @@ class Footer extends Component {
                         <div className="d-none d-sm-none d-md-block col-md-4">
                             <p><MdCopyright /> 2020 Bico</p>
                         </div>
-                        <div className="d-none d-sm-none d-md-block col-md-6">
-                            <p><img src={logo} className=' logo' />Faz um bico</p>
+                        <div className="d-md-block col-md-6" id="logo">
+                            <p><img src={logo} className=' logo'/>Faz um bico</p>
                         </div>
-                        <div className="d-none d-sm-none d-md-block col-md-2">
+                        <div className=" d-md-block col-md-2">
                             <img src={instagram} className=' social' /><img src={twitter} className=' social' /><img src={linkedin} className=' social' /><img src={youtube} className=' social' />
                         </div>
                     </div>
@@ -70,7 +70,7 @@ class Footer extends Component {
                     </div>
                 </div>
 
-                
+
 
 
             </div >

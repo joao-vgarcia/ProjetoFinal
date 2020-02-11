@@ -3,13 +3,14 @@
 }
 #he1{ /*primeiro h1*/
     color: white;
-    font-size: 36px;
+    font-size: 34px;
     padding-top: 30px;
+    margin-left: 190px;
 }
 #he2{ /*subtitulo do inicio do site*/
     color: white;
     font-size: 25px;
-    text-align: left;
+    margin-left: 150px;
 }
 .funciona{ /*div row como funciona */
     color: #323288;
@@ -20,7 +21,7 @@
     margin-top: 30px;
     margin-left: 10px;
     margin-bottom: 10px;
-    
+
 }
 .titulo{ /*titulo dos cards*/
     color: #32329c;
@@ -65,4 +66,9 @@
 
     width: 300px;
     height: 300px;
+}
+
+#precisa{
+    height: 50px;
+    margin-left: 130px;
 }

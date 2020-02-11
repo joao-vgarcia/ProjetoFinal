@@ -23,7 +23,7 @@ class Home extends Component { //criando a classe
                     {/**primeira linha com os textos */}
                     <div className="row" id="background">
                         <div className="col-sm-12 col-md-12 col-lg-7">
-                            <h1 id="he1" alt="Contrate prestadores de serviços na sua comunidade e fortaleça a economia local">Contrate prestadores de serviços na sua comunidade e fortaleça a economia local</h1>
+                            <h1 id="he1" alt="Contrate prestadores de serviços na sua comunidade e fortaleça a economia local">Contrate prestadores de serviços na sua comunidade <br/>e fortaleça a economia local</h1>
 
                             {/**Quebra de linha mesmo dentro de uma linha
                              * De acordo com a tela aparece a quebra de linha ou não
@@ -108,7 +108,7 @@ class Home extends Component { //criando a classe
                     {/**container da linha 1 */}
                     <div className="row justify-content-around">
                         {/**coluna da esquerda */}
-                        <div className="col-sm-12 col-md-4 cartao">
+                        <div className="col-sm-12 col-md-4 cartao"id="cartao">
                             <p className="num">1</p>
                             <p className="titulo">Cadastre-se</p>
                             <p >Seja você prestador ou cliente, é preciso realizar um rápido cadastro para a segurança de todos os usuários</p>
@@ -129,7 +129,7 @@ class Home extends Component { //criando a classe
                         <div className="col-sm-12 col-md-4 cartao">
                             <p className=" num">3</p>
                             <p className=" titulo">Negocie com um prestador</p>
-                            <p className="">Conect-se com prestadores pertos de você negocie o serviço direto pelo app</p>
+                            <p className="">Conecte-se com prestadores pertos de você negocie o serviço direto pelo app</p>
                         </div>
                         <div className="col-sm-12 col-md-4 cartao">
                             <p className=" num">4</p>
@@ -146,18 +146,11 @@ class Home extends Component { //criando a classe
                 {/**container de 2 linha */}
                 <div className="container-fluid">
                     {/**linha azul */}
-                    <div className="row seguro">
+                    <div className="row seguro align-items-center">
                         {/**colunas da esquerda com quebra de linha de acorda com a tela */}
                         <div className="col-sm-12 col-md-7" >
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
 
-                            <br />{/**quebra de linha fixa */}
-                            <h1 className="seguro">Seguro e confiável</h1>
+                            <h1 className="seguro" id="titulofac"> Seguro e confiável</h1>
                             <h2 className="textoseguro">Todo o processo de negociação é feito pelo app, o que garante a segurança dos usuários contra possíveis fraudes</h2>
                             <h2 className="textoseguro">Além disso, prestadores e clientes são avaliados uns pelos outros, aumentando a confiabilidade nas negociações!</h2>
                         </div>
@@ -170,7 +163,7 @@ class Home extends Component { //criando a classe
                     </div>
 
                     {/**linha verde */}
-                    <div className="row rapido">
+                    <div className="row rapido align-items-center" >
 
                         {/**coluna esquerda com imagem  */}
                         <div className="col-md-5">
@@ -179,16 +172,8 @@ class Home extends Component { //criando a classe
                         </div>
                         {/**coluna da esquerda com linhas responsivas */}
                         <div className="col-sm-12 col-md-7 rapido" >
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
-                            <div className="d-none d-md-block"><br /></div>
 
-
-                            <br />{/**quebra de linha fixa */}
-                            <h1>Rápido e fácil de usar</h1>
+                            <h1 id="titulofac">Rápido e fácil de usar</h1>
                             <h2 className="textorapido">Com poucas ações você consegue buscar e contratar prestadores de serviços na sua região</h2>
                             <h2 className="textorapido">Também é possível filtrar profissionais por distância, serviços oferecidos e mais!</h2>
 
@@ -211,7 +196,7 @@ class Home extends Component { //criando a classe
                         {/**colunas da direita com linhas responsivas */}
                         <div className="col-sm-12 col-md-6">
                             <div className="d-none d-md-block"><br /><br /><br /> <br /><br /><br /></div>
-                
+
                             <br />{/**quebra de linha fixa */}
 
                             <h1 id="baixar"><center>Baixe nosso aplicativo</center></h1>

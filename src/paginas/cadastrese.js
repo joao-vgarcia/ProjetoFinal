@@ -49,7 +49,7 @@ class Form extends Component {//inicio da classe formulario de cadastro
     //quando chama esse metodo ele coloca o redirecionar como true
     //então quando chamar é pq foi feito o cadastro e segue para a página dentro da rota que o redirecionar encaminhar
         this.setState({redirecionar:true})
-       
+
         e.preventDefault()
     }
     render() {
@@ -217,7 +217,7 @@ class Form extends Component {//inicio da classe formulario de cadastro
                             <button type="submit" className="btn btn-block botaocad col-10" onClick={this.red.bind(this)}>Continuar</button>
                         </div>
 
-                        {/**Div para inserir uma quebra de linha de acordo com o tamanho da tela */}    
+                        {/**Div para inserir uma quebra de linha de acordo com o tamanho da tela */}
                         <div className="d-none d-md-block"><br /></div><div className="d-block"><br /></div>
                          {/**Acaba o form */}
                     </form>
@@ -230,6 +230,6 @@ class Form extends Component {//inicio da classe formulario de cadastro
             </div>
         )
     }}
-    
+
 }
 export default Form //exporta a classe
