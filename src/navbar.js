@@ -69,7 +69,7 @@ class Navbar extends Component {
                                 </ul>
                                 <ul className="navbar-nav">
                                     <li className="nav-item" >
-                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entrar</Link>
+                                        <Link to="/login" className="btn " id="loginbot" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entre ou cadastre-se</Link>
 
                                     </li>
                                 </ul>
