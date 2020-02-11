@@ -5,12 +5,12 @@
     color: white;
     font-size: 34px;
     padding-top: 30px;
-    margin-left: 190px;
+    
 }
 #he2{ /*subtitulo do inicio do site*/
     color: white;
     font-size: 25px;
-    margin-left: 150px;
+    
 }
 .funciona{ /*div row como funciona */
     color: #323288;
@@ -70,5 +70,5 @@
 
 #precisa{
     height: 50px;
-    margin-left: 130px;
+    
 }
