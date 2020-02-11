@@ -8,3 +8,11 @@ hr{/*tamanho máximo da linha colocada*/
 .h1faq{/*cor do cabeçalho*/
     color: #32329C;
 }
+.cartao{ /*estilos dos cards*/
+    border: 2px solid #696969;
+    border-radius: 0px 0px 45px 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:#F5FFFA;
+}
