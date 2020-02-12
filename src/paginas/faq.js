@@ -1,8 +1,8 @@
 import React, { Component } from 'react'; //importando react
 import './faq.css'; //importando estilos css
 import { GoChevronDown } from "react-icons/go" //icones do react importados
-import jvg from"../imagens/jvg.png" 
-import camilam from"../imagens/camilam.PNG"
+import jvg from "../imagens/jvg.png"
+import camilam from "../imagens/camilam.PNG"
 import jenifer from "../imagens/djenifer.PNG"
 import vinicius from "../imagens/vinicius.PNG"
 import yasmin from "../imagens/yasmin.PNG"
@@ -57,101 +57,101 @@ class FAQ extends Component { //classe faq
                         {/**container da linha 1 */}
                         <div className="row justify-content-around">
                             {/**coluna da esquerda camila */}
-                            <div className="card" style={{width:"330px", marginTop:"20px"}}>
-                                <img className="card-img-top" src={camilam} alt="Card image"/>
-                                    <div className="card-body">
-                                        <h4 className="card-title">Camila Moraes</h4>
-                                        <p className="card-text">Estudante de programação Recode-PRO</p>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>React Native</li>
-                                            <li>Nodejs</li>
-                                            <li>SQL - MySQL</li>
-                                            <li>HTML | CSS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                       
-                                        <a href="https://www.linkedin.com/in/camila-moraes-208311157/" target="blank" className="btn btn-primary">Perfil linkedin</a>
-                                    </div>
+                            <div className="card" style={{ width: "330px", marginTop: "20px" }}>
+                                <img className="card-img-top" src={camilam} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Camila Moraes</h4>
+                                    <p className="card-text">Estudante de programação Recode-PRO</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>React Native</li>
+                                        <li>Nodejs</li>
+                                        <li>SQL - MySQL</li>
+                                        <li>HTML | CSS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
+
+                                    <a href="https://www.linkedin.com/in/camila-moraes-208311157/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                </div>
                             </div>
                             {/**coluna do centro jenifer */}
-                            <div className="card" style={{width:"330px", marginTop:"20px"}}>
-                                <img className="card-img-top" src={jenifer} alt="Card image"/>
-                                    <div className="card-body">
-                                        <h4 className="card-title">Djenifer Rezende</h4>
-                                        <p className="card-text">Estudante de programação Recode-PRO</p>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>React Native</li>
-                                            <li>Nodejs</li>
-                                            <li>SQL - MySQL</li>
-                                            <li>HTML | CSS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                       
-                                        <a href="https://www.linkedin.com/in/djenifer-rezende-31706096/" target="blank" className="btn btn-primary">Perfil linkedin</a>
-                                    </div>
+                            <div className="card" style={{ width: "330px", marginTop: "20px" }}>
+                                <img className="card-img-top" src={jenifer} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Djenifer Rezende</h4>
+                                    <p className="card-text">Estudante de programação Recode-PRO</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>React Native</li>
+                                        <li>Nodejs</li>
+                                        <li>SQL - MySQL</li>
+                                        <li>HTML | CSS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
+
+                                    <a href="https://www.linkedin.com/in/djenifer-rezende-31706096/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                </div>
                             </div>
                             {/**coluna final joao */}
-                            <div className="card" style={{width:"330px", marginTop:"20px"}}>
-                                <img className="card-img-top" src={jvg} alt="Card image"/>
-                                    <div className="card-body">
-                                        <h4 className="card-title">João Vitor Garcia</h4>
-                                        <p className="card-text">Estudante de programação Recode-PRO</p>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>React Native</li>
-                                            <li>Nodejs</li>
-                                            <li>SQL - MySQL</li>
-                                            <li>HTML | CSS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                       
-                                        <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-garcia-b4a952126/" target="blank" className="btn btn-primary">Perfil linkedin</a>
-                                    </div>
+                            <div className="card" style={{ width: "330px", marginTop: "20px" }}>
+                                <img className="card-img-top" src={jvg} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">João Vitor Garcia</h4>
+                                    <p className="card-text">Estudante de programação Recode-PRO</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>React Native</li>
+                                        <li>Nodejs</li>
+                                        <li>SQL - MySQL</li>
+                                        <li>HTML | CSS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
+
+                                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-garcia-b4a952126/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                </div>
                             </div>
                             {/**coluna esquerda vinicius */}
-                            <div className="card" style={{width:"330px", marginTop:"20px"}}>
-                                <img className="card-img-top" src={vinicius} alt="Card image"/>
-                                    <div className="card-body">
-                                        <h4 className="card-title">Vinicius Gonçalves</h4>
-                                        <p className="card-text">Estudante de programação Recode-PRO</p>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>React Native</li>
-                                            <li>Nodejs</li>
-                                            <li>SQL - MySQL</li>
-                                            <li>HTML | CSS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                       
-                                        <a href="https://www.linkedin.com/in/vncsgonca23/" target="blank" className="btn btn-primary">Perfil linkedin</a>
-                                    </div>
+                            <div className="card" style={{ width: "330px", marginTop: "20px" }}>
+                                <img className="card-img-top" src={vinicius} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Vinicius Gonçalves</h4>
+                                    <p className="card-text">Estudante de programação Recode-PRO</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>React Native</li>
+                                        <li>Nodejs</li>
+                                        <li>SQL - MySQL</li>
+                                        <li>HTML | CSS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
+
+                                    <a href="https://www.linkedin.com/in/vncsgonca23/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                </div>
                             </div>
                             {/**coluna final yasmin */}
-                            <div className="card" style={{width:"330px", marginTop:"20px"}}>
-                                <img className="card-img-top" src={yasmin} alt="Card image"/>
-                                    <div className="card-body">
-                                        <h4 className="card-title">Yasmin Lira</h4>
-                                        <p className="card-text">Estudante de programação Recode-PRO</p>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>React Native</li>
-                                            <li>Nodejs</li>
-                                            <li>SQL - MySQL</li>
-                                            <li>HTML | CSS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                       
-                                        <a href="https://www.linkedin.com/in/yasmimlira/" target="blank" className="btn btn-primary">Perfil linkedin</a>
-                                    </div>
+                            <div className="card" style={{ width: "330px", marginTop: "20px" }}>
+                                <img className="card-img-top" src={yasmin} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Yasmin Lira</h4>
+                                    <p className="card-text">Estudante de programação Recode-PRO</p>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>React Native</li>
+                                        <li>Nodejs</li>
+                                        <li>SQL - MySQL</li>
+                                        <li>HTML | CSS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
+
+                                    <a href="https://www.linkedin.com/in/yasmimlira/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -207,9 +207,9 @@ e o mais próximo possível de você.</p>
                             <button className="btn btn-block" type="button" data-toggle="collapse" data-target="#confiavel"><p>O serviço é confiável?<GoChevronDown className="float-right" /></p></button>
 
                             <div id="confiavel" class="collapse">
-                                <p> Sim. Todas as negocioações e transações acontecem dentro da 
-nossa rede. Protegida e garantida para que você, usuário, 
-tenha seu problema resolvido sem precisar se preocupar com 
+                                <p> Sim. Todas as negocioações e transações acontecem dentro da
+nossa rede. Protegida e garantida para que você, usuário,
+tenha seu problema resolvido sem precisar se preocupar com
 demais burocrácias.Fazemos e pensamos isso para garantirmos a melhor
 das experiências em prestação de serviços!  </p>
                             </div>
@@ -222,8 +222,8 @@ das experiências em prestação de serviços!  </p>
                             <button className="btn btn-block" type="button" data-toggle="collapse" data-target="#profissional"><p>Como contrato um porfissional?<GoChevronDown className="float-right" /></p></button>
 
                             <div id="profissional" class="collapse">
-                                <p>Primeiro, cadastre-se em nosso site e escolha a opção "Quero ser um cliente". Insira suas informações básicas e específicas 
-para entendermos quais são suas necessidades. E assim, após tudo ser preenchido e aprovado 
+                                <p>Primeiro, cadastre-se em nosso site e escolha a opção "Quero ser um cliente". Insira suas informações básicas e específicas
+para entendermos quais são suas necessidades. E assim, após tudo ser preenchido e aprovado
 você estará pronto(a) para pesquisar e selecionar quais serviços ou profissionais quer.   </p>
                             </div>
                         </div>
@@ -259,14 +259,14 @@ o email cadastrado e em seguida receberá um email em sua caixa de entrada com o
                         <div className="col-9">
                             <button className="btn btn-block" type="button" data-toggle="collapse" data-target="#pagar"><p>Preciso pagar para usar o serviço?<GoChevronDown className="float-right" /></p></button>
                             <div id="pagar" class="collapse">
-                                <p>Sim. Você será taxado(a) por uma porcetagem fixa quando contratar ou prestar um serviço e realizar ou receber o pagamento. Mas não se preocupe é 
+                                <p>Sim. Você será taxado(a) por uma porcetagem fixa quando contratar ou prestar um serviço e realizar ou receber o pagamento. Mas não se preocupe é
 apenas um valor simbólico para mantermos um serviço bom e de qualidade para você usuário.   </p>
                             </div>
                         </div>
                     </div>
 
                     <hr />
-
+                    {/**Acabou as linhas de botão */}
 
                 </div>
 

@@ -30,23 +30,7 @@ class Home extends Component { //criando a classe
                              */}
                             <div className="d-none d-md-block"><br /><br /><br /></div>
 
-                            <h2 id="he2">Digite o serviço que precisa e entre em contato com prestadores de serviços da sua região, direto do seu celular</h2>
-
-                            {/**Quebra de linha de acordo com o tamanho da tela */}
-                            <div className="d-none d-md-block"><br /><br /><br /></div>
-
-                            {/**Formulário para ter o que o cliente está procurando
-                             * precisa de ajustes
-                             */}
-                            <form>
-                                <div className="input-group">
-                                    <input type="search" className="form-control" placeholder="Do que você precisa?" id="precisa" name="precis" />
-                                    <div className="input-group-prepend">
-                                        <span className="input-group-text" >< IoIosSearch /></span>
-                                    </div>
-                                </div>
-                            </form>
-                            {/**Fim do formulário */}
+                      
 
                             {/**Quebra de linha de acordo com o tamanho da tela */}
                             <div className="d-none d-md-block"><br /><br /></div><div className="d-block d-sm-block d-md-none"><br /></div>

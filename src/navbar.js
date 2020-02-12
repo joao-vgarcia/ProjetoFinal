@@ -60,14 +60,14 @@ class Navbar extends Component {
                                 <ul className="navbar-nav mx-auto">
 
                                     <li className="nav-item" >
-                                        <Link className="nav-link" to="/home" style={{backgroundColor:this.state.cor5, borderRadius: this.state.borda, color: this.state.fonte5}}  onClick={this.mudacor3.bind(this)}  >Home</Link>
+                                        <Link className="nav-link"  to="/home" style={{backgroundColor:this.state.cor5, borderRadius: this.state.borda, color: this.state.fonte5}}  onClick={this.mudacor3.bind(this)}  >Home</Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/faq" style={{backgroundColor:this.state.cor6, borderRadius: this.state.borda, color: this.state.fonte6}} onClick={this.mudacor5.bind(this)} >Quem somos</Link>
+                                        <Link className="nav-link"  to="/faq" style={{backgroundColor:this.state.cor6, borderRadius: this.state.borda, color: this.state.fonte6}} onClick={this.mudacor5.bind(this)} >Quem somos</Link>
                                     </li>
                                     <li className="nav-item" >
-                                        <Link to="/login" className="nav-link" style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entre ou cadastre-se</Link>
+                                        <Link to="/login" className="nav-link"  style={{ backgroundColor: this.state.cor7, borderRadius: this.state.borda, color: this.state.fonte7}} onClick={this.mudacor7.bind(this)}>Entre ou cadastre-se</Link>
 
                                     </li>
                                 </ul>

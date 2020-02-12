@@ -25,6 +25,10 @@
     color: black;
     font-size: 16.5px;
 }
+.esqueci{
+    color: black;
+    font-size: 16px;
+}
 .texto{/*texto dentro do formulário*/
     text-align: left;
     font-size: 28px;
@@ -61,7 +65,16 @@
 
 }
 
-#inputs{
-    
+.redbtn{
+    border-radius: 15px;
+    position: relative;
+    background-color: #32329C;
+    color: white;
+    font-size: 20px;
+    margin:10px;
 }
+.redbtn:hover{
+    color:yellowgreen;
+}
+
 

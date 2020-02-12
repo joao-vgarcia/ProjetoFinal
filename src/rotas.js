@@ -10,7 +10,8 @@ import login from "./paginas/login";
 import categorias from "./paginas/categorias";
 import prestadoresproximos from "./paginas/prestadoresproximos";
 import perfilprest from "./paginas/perfilprestador";
-import perfilcliente from "./paginas/perfilcliente"
+import perfilcliente from "./paginas/perfilcliente";
+import cadastroPrest from "./paginas/cadastroprest";
 
 
 
@@ -28,6 +29,7 @@ function Routes() {
         <Route path="/prestadoresproximos" exact component={prestadoresproximos}/>
         <Route path="/perfilprest" exact component={perfilprest}/>
         <Route path="/perfilcliente" exact component={perfilcliente}/>
+        <Route path="/cadastroPrest" exact component={cadastroPrest}/>
         
        
     </Switch>

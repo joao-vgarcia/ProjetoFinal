@@ -15,8 +15,6 @@
 .formulario{ /*cor do formulário*/
     background-color: white;
     max-width: 600px;
-    border-radius: 5px;
-
 }
 .texto{/*texto dentro do formulário*/
     text-align: left;
