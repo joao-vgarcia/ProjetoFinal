@@ -72,7 +72,8 @@ class FAQ extends Component { //classe faq
                                         <li>Bootstrap 4</li>
                                     </ul>
 
-                                    <a href="https://www.linkedin.com/in/camila-moraes-208311157/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                    <a href="https://www.linkedin.com/in/camila-moraes-208311157/" target="blank" className="btn btn-info">Perfil linkedin</a>
+                                    <a href="https://github.com/kmiiss" target="blank" className="btn btn-dark" style={{marginLeft:"10px"}}>Perfil GitHub</a>
                                 </div>
                             </div>
                             {/**coluna do centro jenifer */}
@@ -91,7 +92,8 @@ class FAQ extends Component { //classe faq
                                         <li>Bootstrap 4</li>
                                     </ul>
 
-                                    <a href="https://www.linkedin.com/in/djenifer-rezende-31706096/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                    <a href="https://www.linkedin.com/in/djenifer-rezende-31706096/" target="blank" className="btn btn-info">Perfil linkedin</a>
+                                    <a href="https://github.com/Djeniferrezende" target="blank" className="btn btn-dark" style={{marginLeft:"10px"}}>Perfil GitHub</a>
                                 </div>
                             </div>
                             {/**coluna final joao */}
@@ -110,7 +112,8 @@ class FAQ extends Component { //classe faq
                                         <li>Bootstrap 4</li>
                                     </ul>
 
-                                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-garcia-b4a952126/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                    <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-garcia-b4a952126/" target="blank" className="btn btn-info">Perfil linkedin</a>
+                                    <a href="https://github.com/joao-vgarcia/" target="blank" className="btn btn-dark" style={{marginLeft:"10px"}}>Perfil GitHub</a>
                                 </div>
                             </div>
                             {/**coluna esquerda vinicius */}
@@ -129,7 +132,8 @@ class FAQ extends Component { //classe faq
                                         <li>Bootstrap 4</li>
                                     </ul>
 
-                                    <a href="https://www.linkedin.com/in/vncsgonca23/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                    <a href="https://www.linkedin.com/in/vncsgonca23/" target="blank" className="btn btn-info">Perfil linkedin</a>
+                                    <a href="https://github.com/vncsgonca23" target="blank" className="btn btn-dark" style={{marginLeft:"10px"}}>Perfil GitHub</a>
                                 </div>
                             </div>
                             {/**coluna final yasmin */}
@@ -148,7 +152,8 @@ class FAQ extends Component { //classe faq
                                         <li>Bootstrap 4</li>
                                     </ul>
 
-                                    <a href="https://www.linkedin.com/in/yasmimlira/" target="blank" className="btn btn-primary">Perfil linkedin</a>
+                                    <a href="https://www.linkedin.com/in/yasmimlira/" target="blank" className="btn btn-info">Perfil linkedin</a>
+                                    <a href="https://github.com/" target="blank" className="btn btn-dark" style={{marginLeft:"10px"}}>Perfil GitHub</a>
                                 </div>
                             </div>
 
